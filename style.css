@@ -1,0 +1,182 @@
+/*CSS Reset / Normalize*/
+/* Hemos disponibilizado el básico de reset de estilos. Si quieren, añadan más informaciones 
+en las secciones señaladas */
+    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+/*En este desafío nosostros gustaríamos que ustedes intentaran utilizar la metodología BEM. 
+Lo que es el BEM?
+BEM (Bloque, Elemento, Modificador) es un enfoque basado en componentes para el 
+desarrollo web. La idea detrás de esto es dividir la interfaz de usuario en bloques
+independientes. Esto hace que el desarrollo de la interfaz sea fácil y rápido, incluso
+con una interfaz de usuario compleja, y permite la reutilización del código existente sin copiar y pegar.
+Enlace de la documentación oficial!
+https://en.bem.info/methodology/quick-start/*/
+
+/*Sección Menu*/
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(./assets/acuarelafondo.png);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;
+}
+
+
+.img-logo{
+    width: 200px;
+    border-radius: 100px;
+    position: relative;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+nav li{
+    display: inline-block;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    font-family: cursive;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: rgb(81, 7, 100);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover{  
+  color: #da1cb0;
+  text-decoration: none;
+}
+
+.miNombre{
+    font-size: 2vw;
+    font-family: cursive;
+    position: absolute;
+    top: 15%;
+    right: 20%;
+}
+
+/*Sección info*/
+
+.title__container{
+    padding-top: 5%;
+
+}
+.about__container{
+    width: 751px;
+    height: 52px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+}
+.title__profile{
+    position: absolute;
+left: 4.17%;
+right: 29.17%;
+top: 16.67%;
+bottom: 16.67%;
+}
+
+.lista-iconos{
+    display: flex;
+    flex-direction: row;
+}
+.lista-iconos li{
+    background-image: none;
+}
+
+.list-img{
+    border-radius: 50%;
+    width: 40%;
+    height: 30%;
+}
+
+.list-img:hover{
+    background-color: #da1cb0;
+}
+/*Sección About*/
+
+section.about{
+
+}
+
+/*Sección Hobbies*/
+
+section.hobbies{
+    
+}
+
+/* Experiencia Académica*/
+
+section.academic{
+
+}
+
+/* experiencia*/
+
+section.experience{
+
+}
+
+/*Contacto*/
+
+section.formcontato{
+
+}
+
+/*footeer*/
+
+section.footer{
+   
+}
+
+/* Vamos a desafiarnos trabajando con responsividad?
+Utiliza las referencias de los breakpoints @media abajo */
+
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+/* Menú */
+
+/*title*/
+
+/*Skills*/
+
+/*Hobbies*/
+
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
+
+}
+
+/*Mobile*/
+@media (min-width: 425px) {
+
+/*Menu*/
+
+/*Titulo*/
+
+/*Sección sobre mi*/
+
+/*Skills*/
+
+/*Hobbies*/
+ 
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
+
+ /*Contacto*/
+
+/*Footer*/
+
+}
